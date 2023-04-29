@@ -1,5 +1,5 @@
 from Bio import SeqIO
-seq_dict = {rec.id : rec.seq for rec in SeqIO.parse("caso_de_teste_4.fasta", "fasta")}
+seq_dict = {rec.id : rec.seq for rec in SeqIO.parse("caso_de_teste_0.fasta", "fasta")}
 
 def find_inequalities(seq1, seq2):
 	inequalities = []

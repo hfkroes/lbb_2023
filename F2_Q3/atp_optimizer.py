@@ -3,7 +3,7 @@ def respiracao_ou_fermentacao(experimentos):
 	for experimento in experimentos:
 		Y = int(experimento[0])
 		Z = int(experimento[1])
-		if (38 / (Y + (6 * Z))) >= 2/Y:
+		if (38 / (Y + (6 * Z))) > 2/Y:
 			escolha_de_reacao.append("R")
 		else:
 			escolha_de_reacao.append("F")
